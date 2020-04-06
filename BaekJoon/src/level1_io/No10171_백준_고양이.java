@@ -1,4 +1,4 @@
-package io_problem;
+package level1_io;
 
 public class No10171_백준_고양이 {
 

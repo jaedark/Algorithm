@@ -1,4 +1,4 @@
-package io_problem;
+package level1_io;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
