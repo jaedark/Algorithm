@@ -1,10 +1,10 @@
-package level1_io;
+package level002_if;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class No10869_백준_사칙연산 {
+public class No1330_백준_두수비교하기 {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -13,11 +13,14 @@ public class No10869_백준_사칙연산 {
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
 		
-		System.out.println(A+B);
-		System.out.println(A-B);
-		System.out.println(A*B);
-		System.out.println(A/B);
-		System.out.println(A%B);
+		if(A > B) {
+			System.out.println(">");
+		}else if(A < B) {
+			System.out.println("<");
+		}else if(A == B) {
+			System.out.println("==");
+		}
+
 	}
 
 }
