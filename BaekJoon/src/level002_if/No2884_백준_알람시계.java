@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class No2884_¹éÁØ_¾Ë¶÷½Ã°è {
+public class No2884_ë°±ì¤€_ì•ŒëžŒì‹œê³„ {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -12,7 +12,7 @@ public class No2884_¹éÁØ_¾Ë¶÷½Ã°è {
 		int H = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
 		
-		//ºÐÀ¸·Î º¯È¯
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
 		int sum = H*60 + M;
 		int result = sum - 45;
 		
@@ -20,10 +20,10 @@ public class No2884_¹éÁØ_¾Ë¶÷½Ã°è {
 			result = result + (24*60);
 		}
 		
-		//½Ã°£ ºÐÀ¸·Î º¯È¯
+		//ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
 		int resultH = result/60;
 		int resultM = result - resultH*60;
-		//°á°ú
+		//ï¿½ï¿½ï¿½
 		System.out.println(resultH + " " + resultM);
 	}
 

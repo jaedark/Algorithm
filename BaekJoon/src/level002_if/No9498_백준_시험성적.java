@@ -3,7 +3,7 @@ package level002_if;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class No9498_¹éÁØ_½ÃÇè¼ºÀû {
+public class No9498_ë°±ì¤€_ì‹œí—˜ì„±ì {
 
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

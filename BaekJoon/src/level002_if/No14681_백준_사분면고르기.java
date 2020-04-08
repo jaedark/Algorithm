@@ -3,7 +3,7 @@ package level002_if;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class No14681_¹éÁØ_»çºÐ¸é°í¸£±â {
+public class No14681_ë°±ì¤€_ì‚¬ë¶„ë©´ê³ ë¥´ê¸° {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -11,13 +11,13 @@ public class No14681_¹éÁØ_»çºÐ¸é°í¸£±â {
 		int x = Integer.parseInt(br.readLine());
 		int y = Integer.parseInt(br.readLine());
 		
-		if(x*y > 0) {// 1,3 ºÐ¸éÀÎ °æ¿ì
+		if(x*y > 0) {// 1,3 ï¿½Ð¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			if(y > 0) {//1
 				System.out.println("1");
 			}else {
 				System.out.println("3");
 			}
-		}else { // 2,4 ºÐ¸éÀÎ °æ¿ì
+		}else { // 2,4 ï¿½Ð¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			if(y > 0) {
 				System.out.println("2");
 			}else {

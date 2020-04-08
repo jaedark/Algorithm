@@ -3,7 +3,7 @@ package level011_recursion;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class No10872_¹éÁØ_ÆÑÅä¸®¾ó {
+public class No10872_ë°±ì¤€_íŒ©í† ë¦¬ì–¼ {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

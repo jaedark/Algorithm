@@ -3,18 +3,18 @@ package level001_io;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class No2588_¹éÁØ_°ö¼À {
+public class No2588_ë°±ì¤€_ê³±ì…ˆ{
 
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int A = Integer.parseInt(br.readLine());
 		int B = Integer.parseInt(br.readLine());
-		//¹éÀÇ ÀÚ¸® ¼ö
+		//ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ ï¿½ï¿½
 		int hundred = B/100;
-		//½ÊÀÇ ÀÚ¸´ ¼ö
+		//ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ ï¿½ï¿½
 		int ten = (B - hundred*100) / 10;
-		//ÀÏÀÇ ÀÚ¸´ ¼ö
+		//ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ ï¿½ï¿½
 		int one = (B - hundred*100 - ten*10);
 
 		System.out.println(A*one);

@@ -1,11 +1,11 @@
 package level001_io;
 
-public class No10171_¹éÁØ_°í¾çÀÌ {
+public class No10171_ë°±ì¤€_ê³ ì–‘ì´{
 
 	public static void main(String[] args) {
 		StringBuffer sb = new StringBuffer();
 		
-		// ÇÑÁÙ Ãâ·ÂÀº System.out.println()À» ÀÌ¿ëÇÑ´Ù.
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ System.out.println()ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ñ´ï¿½.
 		System.out.println("\\    /\\");
 		System.out.println(" )  ( ')");
 		System.out.println("(  /  )");
