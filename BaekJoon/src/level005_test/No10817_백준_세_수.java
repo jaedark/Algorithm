@@ -1,4 +1,4 @@
-package level5_test;
+package level005_test;
 
 import java.util.Arrays;
 import java.util.Scanner;
